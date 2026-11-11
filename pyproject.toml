@@ -1,0 +1,11 @@
+[project]
+name = "control-stock-drf"
+version = "0.1.0"
+description = "Primer Practico DRF - API de Control de Stock"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.1,<6.0",
+    "djangorestframework>=3.15",
+    "djangorestframework-simplejwt>=5.5.1",
+]
